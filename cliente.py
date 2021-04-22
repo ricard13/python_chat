@@ -5,7 +5,7 @@ import time
 import sys
 
 # Definição das variáveis
-host = "10.3.14.35"
+host = ""                                               # Exemplo: 192.168.1.20
 port = 7777
 buffer_size = 2048
 
