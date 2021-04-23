@@ -21,7 +21,7 @@ def broadcast(cliente, mensagem):       # Criação de uma função para envio d
             c.send(mensagem)                                
 
 
-def handle(client, endereco):           # Função que vai controlar a ligação estabelecida pelos clientes
+def handle(client, endereco):                       # Função que vai controlar a ligação estabelecida pelos clientes
     while True:                             
         try:                                
             mensagem = client.recv(buffer_size)     # Vai receber os bytes enviados pelo cliente
