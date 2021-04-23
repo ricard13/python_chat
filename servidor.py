@@ -12,7 +12,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)           # Criação de u
 s.bind((host, port))                                            # Uso do bind para fazer a conexão com host e porta
 s.listen(5)                             
 
-clientes = []             # Criação de uma lista onde vão ser colocados todos os clientes que se conectarem ao servidor
+clientes = []                           # Criação de uma lista onde vão ser colocados todos os clientes que se conectarem ao servidor
 
 
 def broadcast(cliente, mensagem):       # Criação de uma função para envio das mensagens enviadas dos clientes para todos os clientes
